@@ -24,12 +24,12 @@ ReactDOM.render(
     <Router>
       <div>
         <div className='header'>
-            <span> Team 404 - GraphQL web demo </span>
+            <span> GraphQL web demo </span>
         </div>
         <div className = 'intro'>
             <span> This demo implements simple graphql API endpoint hosted at <a href="https://console.graph.cool/myserver/schema/types">
             https://console.graph.cool/myserver/schema/types</a> </span>
-            <span><br/>The app allows adding image, viewing larger details or deleting the post. UI is implemented in React.</span>
+            <span><br/>The app allows adding image URL, viewing larger details or deleting the post. UI is implemented in React.</span>
         </div>
 
         <Route exact path='/' component={ListPage} />
